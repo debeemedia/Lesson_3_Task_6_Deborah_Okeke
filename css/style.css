@@ -1,7 +1,11 @@
-/* .bg-primary {
+.bg-primary {
 	background-color: ##fbc02a;
 	background-image: linear-gradient(to bottom right, #b1942b, #8A7219);
-} */
+}
+
+.border-primary {
+	border-color: #8A7219 !important;
+}
 
 .btn-primary {
 	background-color: #8A7219;
@@ -20,6 +24,18 @@
 	color: #373737;
 }
 
+.text-primary {
+	color: #8A7219 !important;
+}
+
 section {
 	padding: 70px 10px;
+}
+
+section#design img {
+	transition: all .7s ease-in-out;
+}
+
+section#design img:hover {
+	transform: scale(1.2) translate(-12px, -14px);
 }
