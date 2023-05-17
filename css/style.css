@@ -1,5 +1,5 @@
 .bg-primary {
-	background-color: ##fbc02a;
+	background-color: #b1942b;
 	background-image: linear-gradient(to bottom right, #b1942b, #8A7219);
 }
 
@@ -26,16 +26,17 @@
 
 .text-primary {
 	color: #8A7219 !important;
+	font-family: Lato, sans-serif;
 }
 
 section {
 	padding: 70px 10px;
 }
 
-section#design img {
+.card {
 	transition: all .7s ease-in-out;
 }
 
-section#design img:hover {
-	transform: scale(1.2) translate(-12px, -14px);
+.card:hover {
+	transform: scale(1.1) translate(-5px, 5px);
 }
