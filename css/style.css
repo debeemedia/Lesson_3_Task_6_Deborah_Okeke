@@ -3,6 +3,10 @@
 	background-image: linear-gradient(to bottom right, #b1942b, #8A7219);
 }
 
+.bg-light {
+	background-color: #fbf5e5 !important;
+}
+
 .border-primary {
 	border-color: #8A7219 !important;
 }
@@ -29,6 +33,7 @@
 	font-family: Lato, sans-serif;
 }
 
+
 section {
 	padding: 70px 10px;
 }
@@ -39,4 +44,65 @@ section {
 
 .card:hover {
 	transform: scale(1.1) translate(-5px, 5px);
+}
+
+.list-group-item-primary {
+	background-color: #fada6680;
+	color: #373737;
+	transition: all .7s;
+}
+
+.list-group-item-primary:hover {
+	background-color: #fde079;
+}
+
+.list-group-item-light {
+	background-color: #fbf5e580;
+	transition: all .7s;
+}
+
+.list-group-item-light:hover {
+	background-color: #fbf5e5;
+}
+
+.list-group-item-secondary {
+	background-color: #e4e2df80;
+	transition: all .7s;
+}
+
+.list-group-item-secondary:hover {
+	background-color: #e4e2df;
+}
+
+a.nav-link {
+	transition: all .7s;
+}
+
+a.nav-link:hover {
+	color: #8A7219;
+	transform: scale(1.1);
+}
+
+div.offcanvas-body img {
+	transition: all .7s;
+}
+
+div.offcanvas-body img:hover {
+	transform: scale(1.1);
+}
+
+footer img {
+	animation: roll 12s linear infinite;
+}
+
+@keyframes roll {
+	0% {
+		transform: translateX(38vw);
+	}
+	50% {
+		transform: translateX(-38vw);
+	}
+	100% {
+		transform: translateX(38vw);
+	}
 }
