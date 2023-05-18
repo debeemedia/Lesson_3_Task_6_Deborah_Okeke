@@ -74,13 +74,18 @@ section {
 	background-color: #e4e2df;
 }
 
+a {
+	color: #8A7219;
+	transition: all .7s;
+}
+
 a.nav-link {
 	transition: all .7s;
 }
 
 a.nav-link:hover {
 	color: #8A7219;
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 div.offcanvas-body img {
