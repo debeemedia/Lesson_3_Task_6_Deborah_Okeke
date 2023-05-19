@@ -112,3 +112,18 @@ footer img {
 	}
 }
 
+.typewriter {
+	overflow: hidden;
+	white-space: nowrap;
+	letter-spacing: .15em;
+	animation: typing 6s linear;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
