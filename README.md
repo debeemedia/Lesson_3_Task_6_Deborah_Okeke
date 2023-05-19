@@ -13,4 +13,5 @@
 * Mr Johnson Promise (JP)
 * Mr Patrick
 ### [VIEW LIVE SITE](https://debeemedia.github.io/Lesson_3_Task_6_Deborah_Okeke/)
+### CHECK "DESIGN-BRIEF.md" for the brief.
 ## This is a work of LM TechHub.
