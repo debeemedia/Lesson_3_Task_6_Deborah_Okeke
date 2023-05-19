@@ -116,7 +116,7 @@ footer img {
 	overflow: hidden;
 	white-space: nowrap;
 	letter-spacing: .15em;
-	animation: typing 6s linear;
+	animation: typing 6s linear infinite;
 }
 
 @keyframes typing {
