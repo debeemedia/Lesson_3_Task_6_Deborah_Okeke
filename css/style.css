@@ -16,7 +16,7 @@
 	background-image: linear-gradient(to bottom right, #b1942b, #8A7219);
 	color: #fff;
 	border: 0;
-	transition: all .7s;
+	transition: all .5s;
 }
 
 .btn-primary:hover,
@@ -39,7 +39,7 @@ section {
 }
 
 .card {
-	transition: all .7s ease-in-out;
+	transition: all .5s ease-in-out;
 }
 
 .card:hover {
@@ -49,7 +49,7 @@ section {
 .list-group-item-primary {
 	background-color: #fada6680;
 	color: #373737;
-	transition: all .7s;
+	transition: all .5s;
 }
 
 .list-group-item-primary:hover {
@@ -58,7 +58,7 @@ section {
 
 .list-group-item-light {
 	background-color: #fbf5e580;
-	transition: all .7s;
+	transition: all .5s;
 }
 
 .list-group-item-light:hover {
@@ -67,7 +67,7 @@ section {
 
 .list-group-item-secondary {
 	background-color: #e4e2df80;
-	transition: all .7s;
+	transition: all .5s;
 }
 
 .list-group-item-secondary:hover {
@@ -76,20 +76,20 @@ section {
 
 a {
 	color: #8A7219;
-	transition: all .7s;
 }
 
 a.nav-link {
-	transition: all .7s;
+	transition: all .3s;
 }
 
 a.nav-link:hover {
 	color: #8A7219;
+	display: inline-block;
 	transform: scale(1.2);
 }
 
 div.offcanvas-body img {
-	transition: all .7s;
+	transition: all .5s;
 }
 
 div.offcanvas-body img:hover {
@@ -112,25 +112,3 @@ footer img {
 	}
 }
 
-.typewriter {
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid #8A7219; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
-	  typing 3.5s steps(40, end),
-	  blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-	from { width: 0 }
-	to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: #8A7219; }
-  }
