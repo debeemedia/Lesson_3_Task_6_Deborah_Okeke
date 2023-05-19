@@ -88,6 +88,10 @@ a.nav-link:hover {
 	transform: scale(1.2);
 }
 
+footer img {
+	animation: roll 12s linear infinite;
+}
+
 div.offcanvas-body img {
 	transition: all .5s;
 }
@@ -96,17 +100,15 @@ div.offcanvas-body img:hover {
 	transform: scale(1.1);
 }
 
-footer img {
-	animation: roll 12s linear infinite;
-}
-
 @keyframes roll {
 	0% {
 		transform: translateX(38vw);
 	}
+
 	50% {
 		transform: translateX(-38vw);
 	}
+
 	100% {
 		transform: translateX(38vw);
 	}
@@ -123,6 +125,7 @@ footer img {
 	from {
 		width: 0;
 	}
+
 	to {
 		width: 100%;
 	}
