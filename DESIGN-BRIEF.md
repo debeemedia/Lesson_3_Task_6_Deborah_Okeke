@@ -24,7 +24,7 @@ At the start of the project, I gathered the client's requirements, including the
 * Clear Navigation: I created a logical and intuitive navigation structure, allowing visitors to easily explore different sections and pages of the website. The navigation elements were consistent and prominent to enable smooth browsing.
 * Showcasing Projects: I developed a visually appealing and organized presentation of the client's projects, including clear descriptions, images and videos. I used a grid-based layout, a carousel and a card-style approach to showcase projects and highlight reviews effectively.
 * About and Contact Information: I used a friendly approach and engaging tone to describe the client, their skills and professionalism. I also made it easy for visitors to get in touch by including a dedicated contact section and providing links to social media profiles.
-
+* Animations and Transitions: I used motion UI to capture users' attention and improve overall user experience by making them want to linger on the site.
 
 
 ### Development:
